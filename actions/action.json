@@ -1,0 +1,26 @@
+{
+	"actions": [
+      {
+        "description": "Default Welcome Intent",
+        "name": "MAIN",
+        "fulfillment": {
+          "conversationName": "helloMisterPizzaThailand"
+        },
+        "intent": {
+          "name": "actions.intent.MAIN",
+          "trigger": {
+            "queryPatterns": [
+              "talk to Mister Pizza Thailand"
+            ]
+          }
+        }
+      }
+    ],
+    "conversations": {
+      "helloMisterPizzaThailand": {
+        "name": "helloMisterPizzaThailand",
+        "url": "https://gactionthang.ngrok.io/"
+      }
+    }
+
+}
